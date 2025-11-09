@@ -4,12 +4,7 @@
 # Test file to run
 test_file: math_tests.robot
 
-# Tags to exclude (tests with these tags will not run at all)
-exclude_tags:
-  - failing
-
-# Optional: Additional robot framework arguments
-# You can add any additional robot command arguments here
-additional_args:
-  # - --loglevel DEBUG
-  # - --outputdir results
+# Test names to skip (tests with these names will not run)
+# Use exact test names as they appear in the .robot file
+exclude_tests:
+  - "Test Division - Should Fail"
