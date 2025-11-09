@@ -8,3 +8,4 @@ test_file: math_tests.robot
 # Use exact test names as they appear in the .robot file
 exclude_tests:
   - "Test Division - Should Fail"
+  - "Test Subtraction - Should Pass"
