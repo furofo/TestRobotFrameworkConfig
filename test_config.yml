@@ -1,0 +1,15 @@
+# Robot Framework Test Configuration
+# Configure which tests to exclude during execution
+
+# Test file to run
+test_file: math_tests.robot
+
+# Tags to exclude (tests with these tags will not run at all)
+exclude_tags:
+  - failing
+
+# Optional: Additional robot framework arguments
+# You can add any additional robot command arguments here
+additional_args:
+  # - --loglevel DEBUG
+  # - --outputdir results
